@@ -1,0 +1,13 @@
+C:\Users\hp\source\repos\PeerConnect\PeerConnect\bin\Debug\PeerConnect.exe.config
+C:\Users\hp\source\repos\PeerConnect\PeerConnect\bin\Debug\PeerConnect.exe
+C:\Users\hp\source\repos\PeerConnect\PeerConnect\bin\Debug\PeerConnect.pdb
+C:\Users\hp\source\repos\PeerConnect\PeerConnect\bin\Debug\dje\PeerConnect.resources.dll
+C:\Users\hp\source\repos\PeerConnect\PeerConnect\obj\Debug\PeerConnect.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\PeerConnect\PeerConnect\obj\Debug\PeerConnect.Form1.resources
+C:\Users\hp\source\repos\PeerConnect\PeerConnect\obj\Debug\PeerConnect.Properties.Resources.resources
+C:\Users\hp\source\repos\PeerConnect\PeerConnect\obj\Debug\PeerConnect.Form1.dje.resources
+C:\Users\hp\source\repos\PeerConnect\PeerConnect\obj\Debug\PeerConnect.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\PeerConnect\PeerConnect\obj\Debug\PeerConnect.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\PeerConnect\PeerConnect\obj\Debug\dje\PeerConnect.resources.dll
+C:\Users\hp\source\repos\PeerConnect\PeerConnect\obj\Debug\PeerConnect.exe
+C:\Users\hp\source\repos\PeerConnect\PeerConnect\obj\Debug\PeerConnect.pdb
