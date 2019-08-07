@@ -55,6 +55,7 @@ public class connection
             try
             {
                 sendMessage.encode();
+                Console.WriteLine(sendMessage.text);
                 client.Send(sendMessage.encodedtext, 0, sendMessage.encodedtext.Length, SocketFlags.None);
                 Console.WriteLine("message sent:" + sendMessage.text);
             }
@@ -65,7 +66,7 @@ public class connection
         if (server != null)
             try
             {
-                receiveMessage.encode();
+                sendMessage.encode();
                 client.Send(sendMessage.encodedtext, 0, sendMessage.encodedtext.Length, SocketFlags.None);
                 Console.WriteLine("message sent:" + sendMessage.text);
             }
@@ -76,12 +77,10 @@ public class connection
         if(client!=null)
         try
         {
-            if (client.Receive(receiveMessage.encodedtext, 0, receiveMessage.encodedtext.Length, SocketFlags.None) > 0)
-            {
+                if (client.Receive(receiveMessage.encodedtext, 0, receiveMessage.encodedtext.Length, SocketFlags.None) > 0) { receiveStatus = true; Console.WriteLine("received!!!!"); }
                 receiveMessage.decode();
-                receiveStatus = true;
                 Console.WriteLine("message received:" + receiveMessage.text);
-            }
+            
         }
          catch (Exception e) { Console.WriteLine(e.Message); }
     }
@@ -90,12 +89,10 @@ public class connection
         if (client != null)
             try
             {
-                if (client.Receive(sendMessage.encodedtext, 0, receiveMessage.encodedtext.Length, SocketFlags.None) > 0)
-                {
-                    receiveMessage.decode();
-                    receiveStatus = true;
-                    Console.WriteLine("message received:" + receiveMessage.text);
-                }
+                if (client.Receive(receiveMessage.encodedtext, 0, receiveMessage.encodedtext.Length, SocketFlags.None) > 0) { receiveStatus = true; Console.WriteLine("received!!!!"); }
+                receiveMessage.decode();
+                Console.WriteLine("message received:" + receiveMessage.text);
+                
             }
             catch (Exception e) { Console.WriteLine(e.Message); }
     }
